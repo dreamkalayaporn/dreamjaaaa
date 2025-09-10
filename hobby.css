@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5c8e0;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+.container {
+  padding: 30px;
+  position: relative;
+}
+
+/* ปุ่มย้อนกลับ */
+.back-button {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+/* หัวข้อ */
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+}
+
+/* กิจกรรม */
+.hobby-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.hobby-item {
+  text-align: center;
+}
+
+.hobby-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hobby-item p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}

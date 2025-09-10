@@ -1,0 +1,26 @@
+/* พื้นหลังสีชมพู */
+body {
+  background-color: #f5c8e0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Impact', sans-serif; /* หรือฟอนต์แนวแสดงผลคล้ายภาพ */
+}
+
+/* เมนูอยู่ตรงกลางแนวตั้ง */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* ระยะห่างระหว่างข้อความ */
+  text-align: center;
+}
+
+/* สไตล์ของข้อความเมนู */
+.item {
+  font-size: 40px;
+  color: black;
+  text-shadow: 1px 1px #333;
+  letter-spacing: 2px;
+}

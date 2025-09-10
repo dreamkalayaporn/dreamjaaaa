@@ -1,0 +1,68 @@
+
+/* รีเซ็ตค่าเริ่มต้น */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(to right, #fff4bc, #ffc6e7, #ffb3f1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HOME (อยู่ด้านบน) */
+.home {
+  position: absolute;
+  top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* ส่วนข้อความ dream + kalayaporn */
+.logo {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* dream */
+.dream {
+  font-size: 48px;
+  color: #1874d2;
+  font-weight: bold;
+  margin-bottom: -15px;
+  z-index: 2;
+}
+
+/* kalayaporn */
+.kalayaporn {
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  color: #f78de6;
+  text-shadow: 4px 4px #77e0c4;
+  transform: rotate(-5deg);
+}
+
+/* ดาวทางขวา */
+.stars::before {
+  content: '✨ ✨ ✨ ✨ ✨ ✨';
+  position: absolute;
+  top: 30%;
+  right: 30px;
+  font-size: 20px;
+  color: #fff8dc;
+  transform: rotate(15deg);
+  line-height: 2;
+  white-space: pre-line;
+}

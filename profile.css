@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kodchasan', sans-serif;
+  background-color: #f5c8e0;
+}
+
+.container {
+  position: relative;
+  padding: 30px;
+}
+
+/* ปุ่มย้อนกลับ */
+.back-button {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+/* หัวข้อ */
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #4a3b3b;
+}
+
+/* เนื้อหา */
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.info {
+  flex: 1;
+  padding: 20px;
+  font-size: 20px;
+  color: #5e4b4b;
+  line-height: 2;
+}
+
+.photo img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* ตกแต่ง */
+.decor {
+  position: absolute;
+  font-size: 30px;
+}
+
+.decor1 {
+  top: 180px;
+  left: 10px;
+}
+
+.decor2 {
+  bottom: 40px;
+  left: 40px;
+}
+
+.decor3 {
+  top: 80px;
+  right: 40px;
+}
